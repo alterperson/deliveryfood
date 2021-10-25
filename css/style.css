@@ -414,7 +414,6 @@ section {
 
 .tabs__image {
   width: 100%;
-  height: 192px;
 }
 
 .tabs__card-content {
@@ -479,6 +478,7 @@ section {
 .advantages__list {
   display: flex;
   margin: -37px;
+  margin-top: 52px;
 }
 
 .advantages__card {
@@ -552,4 +552,87 @@ section {
   margin-right: 20px;
   background-color: #c4c4c4;
   border-radius: 50%;
+}
+
+@media (max-width: 1260px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .search {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .tabs__content {
+    flex-wrap: wrap;
+  }
+
+  .tabs__card {
+    flex: 50%;
+    max-width: calc(50% - 30px);
+  }
+
+  .advantages__list {
+    flex-wrap: wrap;
+  }
+
+  .advantages__card {
+    width: calc(48% - 30px);
+    margin: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .slide {
+    padding: 70px;
+  }
+
+  .delivery__card {
+    width: calc(50% - 30px);
+  }
+
+  .advantages__card {
+    margin: 5px;
+  }
+
+  .footer__logo {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .search {
+    order: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .promo {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .tabs__card {
+    max-width: 100%;
+  }
 }
