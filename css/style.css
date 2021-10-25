@@ -202,14 +202,17 @@ section {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
+  margin: -20px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 570px;
+  flex: 50%;
+  max-width: 570px;
   min-height: 380px;
+  margin: 20px;
   padding: 32px;
   background-repeat: no-repeat;
   background-size: cover;
