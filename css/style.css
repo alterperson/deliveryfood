@@ -266,3 +266,82 @@ section {
 .card--minimum {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner/minimum.jpg");
 }
+
+.section__title {
+  margin-bottom: 47px;
+  font-size: 32px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.delivery__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.delivery__card {
+  position: relative;
+  width: 275px;
+  height: 182px;
+  margin: 15px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.delivery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.delivery__tag {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  padding: 5px 10px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.delivery__tag--green {
+  color: #49494f;
+  background-color: #d0fd89;
+}
+
+.delivery__tag--vegetables {
+  color: #ffffff;
+  background-color: #aebc41;
+}
+
+.delivery__tag--meat {
+  color: #ffffff;
+  background-color: #b86b78;
+}
+
+.delivery__tag--bird {
+  color: #ffffff;
+  background-color: #d68334;
+}
+
+.delivery__tag--fish {
+  color: #ffffff;
+  background-color: #cd6255;
+}
+
+.delivery__tag--child {
+  color: #49494f;
+  background-color: #fffdbf;
+}
+
+.delivery__tag--parents {
+  color: #49494f;
+  background-color: #f6fdc8;
+}
+
+.delivery__tag--holiday {
+  color: #49494f;
+  background-color: #fef7fe;
+}
