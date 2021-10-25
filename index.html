@@ -11,5 +11,32 @@
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo" href="/">
+          <img class="logo__image" width="128" src="img/logo.png" alt="Лого: Индекс еда" />
+        </a>
+        <!-- /.logo -->
+        <form class="search" action="#">
+          <input class="search__input" type="search" placeholder="Блюда" />
+          <button class="search__button">
+            <img class="search__icon" src="img/search-icon.svg" alt="Иконка кнопки поиска" />
+          </button>
+        </form>
+        <!-- /.search -->
+        <div class="auth">
+          <button class="auth__button">Войти</button>
+        </div>
+        <!-- /.auth -->
+        <a class="cart" href="#">
+          <img class="cart__icon" src="img/cart.svg" alt="Иконка корзины" />
+          <span class="cart__counter">12</span>
+        </a>
+        <!-- /.cart -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.header -->
+  </body>
 </html>
