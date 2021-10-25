@@ -488,3 +488,42 @@ section {
   line-height: 22px;
   text-align: center;
 }
+
+.footer {
+  padding: 40px 0;
+  background-color: #f6f6f6;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-right: 50px;
+}
+
+.footer__link {
+  margin-right: 50px;
+  font-size: 16px;
+  line-height: 23px;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
