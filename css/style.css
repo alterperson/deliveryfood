@@ -152,8 +152,8 @@ section {
 .slide {
   display: flex;
   align-items: center;
-  padding: 100px;
-  min-height: 400px;
+  padding: 0 100px;
+  height: 390px;
   border-radius: 20px;
 }
 
@@ -188,8 +188,34 @@ section {
   line-height: 23px;
 }
 
+.slider__buttons {
+  position: absolute;
+  right: 46px;
+  bottom: 40px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  cursor: pointer;
+}
+
+.swiper {
+  position: relative;
+}
+
 .slide--summer {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../img/banner/summer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide--autumn {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../img/banner/autumn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide--vitamine {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../img/banner/vitamine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
