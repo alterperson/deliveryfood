@@ -1,3 +1,3 @@
 # deliveryfood
 
-Интенсив по верстке "Сервис доставки еды" от Glo Academy - https://alterperson.github.io/deliveryfood/
+Верстка макета "Сервис доставки еды" - https://alterperson.github.io/deliveryfood/
